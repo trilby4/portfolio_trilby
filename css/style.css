@@ -1,0 +1,61 @@
+body {
+    background-color: #F8DFDB;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: #000000;
+  }
+  
+  /* Apply a different font to headings */
+  h1, h2, h3, h4 {
+    font-family: 'Helvetica Neue Regular', sans-serif;
+    line-height: 1.4;
+  }
+  
+  h1, h2, h3, h4 {
+    line-height: 1.4;
+  }
+  
+  h1 {
+    font-size: 3.8em;
+    font-weight: 700;
+  }
+  
+  h2 {
+    font-size: 2.5em;
+    font-weight: 700;
+  }
+  
+  h3 {
+    font-size: 2em;
+    font-weight: 400;
+  }
+  
+  h4 {
+    font-size: 1.5em;
+    font-weight: 400;
+  }
+  
+  .button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #F8DFDB; /* Button background color */
+    color: #EC008C; /* Button text color */
+    text-decoration: none; /* Remove underline */
+    border: 1px solid #EC008C; /* Add border */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  .button-link:hover {
+    background-color: #FFA0D8; /* Hover background color */
+    color: #EC008C; /* Button text color */
+    text-decoration: none; /* Remove underline */
+    border: 1px solid #EC008C; /* Add border */
+    border-radius: 5px; /* Rounded corners */
+  }
+  .button-link:active {
+    background-color: #EC008C; /* Change background color when clicked */
+    color: #FFF; /* Change text color when clicked */
+    border: 1px solid #000; /* Change border when clicked */
+  }
