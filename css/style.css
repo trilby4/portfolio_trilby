@@ -2,7 +2,9 @@ img {
   max-width: 100%;
   height: auto;
 }
-body {font-family: 'Open Sans', sans-serif;
+
+
+body {
     background-color: #F8DFDB;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -67,4 +69,20 @@ body {font-family: 'Open Sans', sans-serif;
     background-color: #EC008C; /* Change background color when clicked */
     color: #FFF; /* Change text color when clicked */
     border: 1px solid #000; /* Change border when clicked */
+  }
+
+  a {
+    color: #0000EE;
+    text-decoration: underline
+  }
+  a:hover {
+    color: #000079;
+    text-decoration: underline;
+  }
+
+  a:visited { /* visited link */
+    color: #551A8B;
+  }
+  a:active { /* selected link */
+    color: #EE0000
   }
