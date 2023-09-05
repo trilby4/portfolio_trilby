@@ -3,8 +3,25 @@ img {
   height: auto;
 }
 
+/* Styles for the regular logo */
+.logo {
+  width: 100px; /* Set the width you want */
+  height: auto; /* Maintain the aspect ratio */
+}
+
+/* Styles for the LinkedIn logo */
+.linkedin-logo {
+  width: 10px; /* Customize the width for LinkedIn logo */
+  /* You can add additional styles specific to the LinkedIn logo */
+}
+
+/* Styles for the Email logo */
+.email-logo {
+  width: 30px; /* Customize the width for Email logo */
+  /* You can add additional styles specific to the Email logo */
+}
 header {
-  padding: 10px;
+  padding: 165px;
 }
 
 body {
