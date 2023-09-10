@@ -3,27 +3,6 @@ img {
   height: auto;
 }
 
-/* Styles for the regular logo */
-.logo {
-  width: 100px; /* Set the width you want */
-  height: auto; /* Maintain the aspect ratio */
-}
-
-/* Styles for the LinkedIn logo */
-.linkedin-logo {
-  width: 10px; /* Customize the width for LinkedIn logo */
-  /* You can add additional styles specific to the LinkedIn logo */
-}
-
-/* Styles for the Email logo */
-.email-logo {
-  width: 30px; /* Customize the width for Email logo */
-  /* You can add additional styles specific to the Email logo */
-}
-header {
-  padding: 165px;
-}
-
 body {
     background-color: #F8DFDB;
     font-family: 'Open Sans', sans-serif;
@@ -33,7 +12,7 @@ body {
     color: #000000;
   }
   
-  /* Apply a different font to headings */
+  
   h1, h2, h3, h4 {
     font-family: 'Inter', sans-serif;
     line-height: 1.4;
@@ -106,3 +85,305 @@ body {
   a:active { /* selected link */
     color: #EE0000
   }
+  /* Layout styling */
+* {
+  box-sizing: border-box;
+}
+.header-container {
+  padding: 20px;
+  min-height: 0px; /* Add a minimum height to the container */
+}
+
+.logo {
+  width: 100px; 
+  height: auto; /* Maintain the aspect ratio */
+}
+
+a.logo.linkedin-logo img {
+  width: 40px;
+}
+
+a.logo.email-logo img {
+  width: 50px;
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #4a4a4a;
+}
+
+main {
+  padding-top: 0px;
+}
+
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-right: 8px; 
+}
+
+
+.the-hero-image-container {
+padding: 173px;
+}
+
+.the-short-story-container {
+padding: 173px;
+text-align: center;
+}
+
+.perilous-journey-container {
+  padding: 173px;
+  text-align: center;
+}
+
+.duration-list-container {
+  padding: 173px;
+}
+
+.thought-bubble-container {
+  padding: 173px;
+}
+
+.initially-container {
+  padding: 173px;
+}
+.initially-paragraph-container{
+  padding: 200px;
+  text-align: left;
+} 
+
+.prioritization-map-container {
+ padding: 173px;
+}
+
+ .assumption-container {
+  padding: 173px;
+ }
+
+ .competitive-analysis-container {
+  padding: 173px;
+ }
+ 
+ .affinity-map-container {
+  padding: 173px;
+  }
+
+  .slightly-off-container {
+    padding: 173px;
+}
+
+.in-mind-container {
+    padding: 173px;
+}
+
+.renters-container {
+  padding: 173px;
+  }
+
+.illustration-clipboard-container {
+  padding: 173px;
+}
+  
+.user-persona-container {
+   padding: 173px;
+}
+
+.user-journey-container {
+   padding: 173px;
+}
+ .building-container {
+   padding: 173px;
+}        
+.need-container {
+  padding: 173px;
+}          
+.building-col2-container {
+  padding: 173px;
+}
+.sketching-container {
+  padding: 173px;
+}
+.to—mid-fidelity-container {
+  padding: 173px;
+}
+.mid-fidelity-desktop-imgs-container {
+  padding: 173px;
+}
+.high-fidelity-container {
+  padding: 173px;
+}
+.putting-test-container {
+  padding: 173px;
+}
+.putting-test-paragraph-container {
+  padding: 399px;
+  text-align: left;
+}
+.usability-testing-button {
+  padding: 698px;
+}    
+.usability-testing-1-container {
+  padding: 413px;
+}
+.usability-testing-1-paragraph-container {
+  padding: 391px;
+}
+.usabiity-testing-imgs-container {
+  padding: 164px;
+}
+.usability-testing-2-container {
+  padding: 220;
+}
+.usability-testing-2-paragraph-container {
+  padding: 198px;
+}
+.usability-testing-imgs2-container {
+  padding: 160px;
+}
+.usability-testing-3-container {
+  padding: 279;
+}
+.usability-testing-3-paragraph-container {
+  padding: 187px;
+}
+.usability-testing-imgs3-container {
+  padding: 383px;
+}
+.usability-testing-imgs3-2-container {
+  padding: 234px;
+}
+.final-product-container {
+  padding: 635px;
+}
+.style-guide-button-container {
+  padding: 1000;
+}
+.style-guide-img-container {
+  padding: 289px;
+  min-height: 100px;
+}
+.reflections-button-container {
+  padding-left: 698px; 
+  padding-top: 400px;
+}
+
+.final-product-video-container {
+  padding: 712px;
+  min-height: 100px;
+}
+.prototype-button-container {
+  padding: 500px;
+}
+.bottom-logo-container {
+  padding: 750px;
+}
+.footer-container {
+  padding: 613px;
+}
+.contact-footer-container {
+  padding: 815px;
+}
+.copyright-container {
+  padding: 700px;
+}
+
+.profile-picture-container {
+  padding: 120px;
+}
+.gonzaga-container {
+  padding: 173px;
+}
+.remaining-text-container {
+  padding: 173px;
+}
+.resume-button-container {
+  padding: 200px;
+}
+.story-container {
+  padding: 173px;
+}
+.about-me-paragraph-container {
+  padding: 170px;
+}
+.contact-me-button-container {
+  padding: 200px;
+}
+.skills-container {
+  padding: 200px;
+}
+.pink-text-container {
+  padding: 200px;
+}
+.skills-list-1-container {
+  padding: 20px;
+}
+.skills-list-2-container {
+  padding: 20px;
+}
+
+.intro-container {
+  padding: 150px;
+}
+.mywork-container {
+  padding: 200px;
+}
+.reside-container {
+  padding: 20px;
+}
+.reside-paragraph-container {
+  padding: 20px;
+  text-align: left;
+}
+
+.reside-logo-container {
+  padding: 20px;
+}
+
+.fairwind-container {
+  padding: 20px;
+}
+
+.fairwind-paragraph-container {
+  padding: 20px;
+  text-align: left;
+}
+
+.fairwind-logo-container {
+  padding: 20px;
+}
+
+.top-link-container {
+  padding: 20px;
+}
+
+a.logo.reside-home-page img {
+  width: 100px; 
+  height: auto; /* Maintain the aspect ratio */
+}
+
+a.logo.fairwind-home-page img {
+  width: 100px; 
+  height: auto; /* Maintain the aspect ratio */
+}
