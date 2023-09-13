@@ -89,11 +89,6 @@ body {
 * {
   box-sizing: border-box;
 }
-.header-container {
-  padding: 20px;
-  min-height: 0px; /* Add a minimum height to the container */
-}
-
 .logo {
   width: 100px; 
   height: auto; /* Maintain the aspect ratio */
@@ -143,241 +138,6 @@ li {
   margin-right: 8px; 
 }
 
-
-.the-hero-image-container {
-padding: 173px;
-}
-
-.the-short-story-container {
-padding: 173px;
-text-align: center;
-}
-
-.perilous-journey-container {
-  padding: 173px;
-  text-align: center;
-}
-
-.duration-list-container {
-  padding: 173px;
-}
-
-.thought-bubble-container {
-  padding: 173px;
-}
-
-.initially-container {
-  padding: 173px;
-}
-.initially-paragraph-container{
-  padding: 200px;
-  text-align: left;
-} 
-
-.prioritization-map-container {
- padding: 173px;
-}
-
- .assumption-container {
-  padding: 173px;
- }
-
- .competitive-analysis-container {
-  padding: 173px;
- }
- 
- .affinity-map-container {
-  padding: 173px;
-  }
-
-  .slightly-off-container {
-    padding: 173px;
-}
-
-.in-mind-container {
-    padding: 173px;
-}
-
-.renters-container {
-  padding: 173px;
-  }
-
-.illustration-clipboard-container {
-  padding: 173px;
-}
-  
-.user-persona-container {
-   padding: 173px;
-}
-
-.user-journey-container {
-   padding: 173px;
-}
- .building-container {
-   padding: 173px;
-}        
-.need-container {
-  padding: 173px;
-}          
-.building-col2-container {
-  padding: 173px;
-}
-.sketching-container {
-  padding: 173px;
-}
-.to—mid-fidelity-container {
-  padding: 173px;
-}
-.mid-fidelity-desktop-imgs-container {
-  padding: 173px;
-}
-.high-fidelity-container {
-  padding: 173px;
-}
-.putting-test-container {
-  padding: 173px;
-}
-.putting-test-paragraph-container {
-  padding: 399px;
-  text-align: left;
-}
-.usability-testing-button {
-  padding: 698px;
-}    
-.usability-testing-1-container {
-  padding: 413px;
-}
-.usability-testing-1-paragraph-container {
-  padding: 391px;
-}
-.usabiity-testing-imgs-container {
-  padding: 164px;
-}
-.usability-testing-2-container {
-  padding: 220;
-}
-.usability-testing-2-paragraph-container {
-  padding: 198px;
-}
-.usability-testing-imgs2-container {
-  padding: 160px;
-}
-.usability-testing-3-container {
-  padding: 279;
-}
-.usability-testing-3-paragraph-container {
-  padding: 187px;
-}
-.usability-testing-imgs3-container {
-  padding: 383px;
-}
-.usability-testing-imgs3-2-container {
-  padding: 234px;
-}
-.final-product-container {
-  padding: 635px;
-}
-.style-guide-button-container {
-  padding: 1000;
-}
-.style-guide-img-container {
-  padding: 289px;
-  min-height: 100px;
-}
-.reflections-button-container {
-  padding-left: 698px; 
-  padding-top: 400px;
-}
-
-.final-product-video-container {
-  padding: 712px;
-  min-height: 100px;
-}
-.prototype-button-container {
-  padding: 500px;
-}
-.bottom-logo-container {
-  padding: 750px;
-}
-.footer-container {
-  padding: 613px;
-}
-.contact-footer-container {
-  padding: 815px;
-}
-.copyright-container {
-  padding: 700px;
-}
-
-.profile-picture-container {
-  padding: 120px;
-}
-.gonzaga-container {
-  padding: 173px;
-}
-.remaining-text-container {
-  padding: 173px;
-}
-.resume-button-container {
-  padding: 200px;
-}
-.story-container {
-  padding: 173px;
-}
-.about-me-paragraph-container {
-  padding: 170px;
-}
-.contact-me-button-container {
-  padding: 200px;
-}
-.skills-container {
-  padding: 200px;
-}
-.pink-text-container {
-  padding: 200px;
-}
-.skills-list-1-container {
-  padding: 20px;
-}
-.skills-list-2-container {
-  padding: 20px;
-}
-
-.intro-container {
-  padding: 150px;
-}
-.mywork-container {
-  padding: 200px;
-}
-.reside-container {
-  padding: 20px;
-}
-.reside-paragraph-container {
-  padding: 20px;
-  text-align: left;
-}
-
-.reside-logo-container {
-  padding: 20px;
-}
-
-.fairwind-container {
-  padding: 20px;
-}
-
-.fairwind-paragraph-container {
-  padding: 20px;
-  text-align: left;
-}
-
-.fairwind-logo-container {
-  padding: 20px;
-}
-
-.top-link-container {
-  padding: 20px;
-}
-
 a.logo.reside-home-page img {
   width: 100px; 
   height: auto; /* Maintain the aspect ratio */
@@ -386,4 +146,48 @@ a.logo.reside-home-page img {
 a.logo.fairwind-home-page img {
   width: 100px; 
   height: auto; /* Maintain the aspect ratio */
+}
+.container {
+	max-width: 1200px; 
+	margin: 0 auto;
+	padding: 0 10px;
+}
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
+
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+  #hero span {
+    display: block;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  [class*="col-"] {
+    float: left;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+}
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px) {
 }
