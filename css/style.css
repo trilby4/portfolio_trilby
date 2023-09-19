@@ -191,6 +191,7 @@ a.logo.about-picture {
 .cloud-back {
   animation: 24s cloud-move-reverse infinite alternate linear;
 }
+.center { text-align: center; }
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -226,6 +227,20 @@ width: 30%;
   width: 70%;
   padding: 0 0 0 30px;
 }
+.col-md-60 {
+  width: 60%;
+  padding: 0 0 0 30px;
+}
+
+.col-md-40 {
+  width: 40%;
+  padding: 0 0 0 30px;
+}
+.col-md-50 {
+  width: 50%;
+  padding: 0 0 0 30px;
+}
+
 .project-logo {
   width: auto;
   margin: auto;
@@ -257,9 +272,16 @@ Large devices (1024px or larger)
 .col-lg-20 {
   width: 20%;
 }
+.col-lg-30 {
+  width: 30%;
+}
 
 .col-lg-80 {
   width: 80%;
+}
+.col-lg-50 {
+  width: 50%;
+  padding: 0 0 0 30px;
 }
 }
 /* ==============================
