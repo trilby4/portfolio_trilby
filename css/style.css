@@ -188,9 +188,9 @@ color: #F8DFDB
 }
 .center { text-align: center; }
 
-.footer-a {
-  height: 80px;
-  width: 80px;
+footer a {
+  height: 20px;
+  width: 20px;
   align-items: center;
 }
 
