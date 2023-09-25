@@ -189,9 +189,16 @@ color: #F8DFDB
 .center { text-align: center; }
 
 footer a {
-  height: 20px;
-  width: 20px;
-  align-items: center;
+  height: 40px;
+  width: auto;
+  text-align: center;
+  display: inline-block;
+}
+.social-media-logo {
+  height: 40px;
+  width: auto;  
+  display: inline-block;
+  margin: 0 10px; 
 }
 
 /* ==============================
@@ -295,7 +302,9 @@ Large devices (1024px or larger)
   width: 40%;
   padding: 0 0 0 30px;
 }
-
+.col-lg-60 {
+  width: 60%;
+}
 }
 /* ==============================
 X-large devices (1440px or larger)
