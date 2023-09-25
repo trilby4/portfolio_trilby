@@ -233,20 +233,16 @@ width: 30%;
 
 .col-md-70 {
   width: 70%;
-  padding: 0 0 0 30px;
 }
 .col-md-60 {
   width: 60%;
-  padding: 0 0 0 30px;
 }
 
 .col-md-40 {
   width: 40%;
-  padding: 0 0 0 30px;
 }
 .col-md-50 {
   width: 50%;
-  padding: 0 0 0 30px;
 }
 
 .project-logo {
@@ -296,11 +292,9 @@ Large devices (1024px or larger)
 }
 .col-lg-50 {
   width: 50%;
-  padding: 0 0 0 30px;
 }
 .col-lg-40 {
   width: 40%;
-  padding: 0 0 0 30px;
 }
 .col-lg-60 {
   width: 60%;
