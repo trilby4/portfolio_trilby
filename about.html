@@ -22,28 +22,35 @@
 <body>
     <header>
         <div class="container">
-            <div id="hero"></div>
-            <a href="index.html"> <!-- link back to homepage -->
-                <img src="logo.svg" alt="Logo" class="logo">
-            </a>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home page</a></li>
-                    <li><a href="reside.html">reSide</a></li>
-                </ul>
-                <a href="https://www.linkedin.com/" target="_blank" class="logo linkedin-logo">
-                    <picture>
-                        <source srcset="img/icons/portfolio_site_linkedin_icon@1x.png" media="(max-width:767px)">
-                        <img src="img/icons/portfolio_site_linkedin_icon@2x.png" alt="The logo image for LinkedIn" class="social-media-logo">
-                    </picture>
-                </a>
-                <a href="mailto:trilby@trilby4.com" class="logo email-logo">
-                    <picture>
-                        <source srcset="img/icons/portfolio_site_email_icon@1x.png" media="(max-width:767px)">
-                        <img src="img/icons/portfolio_site_email_icon@2x.png" alt="Email icon." class="social-media-logo">
-                    </picture>
-                </a>
-            </nav>
+            <div class="navtoggle" id="myNavtoggle">
+                <div class="container">
+                    <div id="hero"></div>
+                    <a href="index.html"> <!-- link back to homepage -->
+                        <img src="logo.svg" alt="Logo" class="logo">
+                    </a>
+                    <nav>
+                        <ul>
+                            <li><a href="reside.html" onclick="menuToggle()">reSide</a></li>
+                            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+                        </ul>
+                        <a href="https://www.linkedin.com/" target="_blank" class="logo linkedin-logo">
+                            <picture>
+                                <source srcset="img/icons/portfolio_site_linkedin_icon@1x.png"
+                                    media="(max-width:767px)">
+                                <img src="img/icons/portfolio_site_linkedin_icon@2x.png"
+                                    alt="The logo image for LinkedIn" class="social-media-logo">
+                            </picture>
+                        </a>
+                        <a href="mailto:trilby@trilby4.com" class="logo email-logo">
+                            <picture>
+                                <source srcset="img/icons/portfolio_site_email_icon@1x.png" media="(max-width:767px)">
+                                <img src="img/icons/portfolio_site_email_icon@2x.png" alt="Email icon."
+                                    class="social-media-logo">
+                            </picture>
+                        </a>
+                    </nav>
+                </div>
+            </div>
         </div>
     </header>
     <main>
@@ -90,7 +97,9 @@
                         delightful for people, let's connect!
                     </p>
                     <div class="center">
+                        <p>
                         <a href="mailto:trilby@trilby4.com" target="_blank" class="button-link">Contact Me</a>
+                        </p>
                     </div>
                 </div>
                 <div class="col-md-50 col-lg-50">
@@ -145,13 +154,15 @@
                 <a href="https://www.linkedin.com/" target="_blank">
                     <picture>
                         <source srcset="img/icons/portfolio_site_linkedin_icon@1x.png" media="(max-width:767px)">
-                        <img src="img/icons/portfolio_site_linkedin_icon@2x.png" alt="The logo image for LinkedIn" class="social-media-logo">
+                        <img src="img/icons/portfolio_site_linkedin_icon@2x.png" alt="The logo image for LinkedIn"
+                            class="social-media-logo">
                     </picture>
                 </a>
                 <a href="mailto:trilby@trilby4.com">
                     <picture>
                         <source srcset="img/icons/portfolio_site_email_icon@1x.png" media="(max-width:767px)">
-                        <img src="img/icons/portfolio_site_email_icon@2x.png" alt="Email icon." class="social-media-logo">
+                        <img src="img/icons/portfolio_site_email_icon@2x.png" alt="Email icon."
+                            class="social-media-logo">
                     </picture>
                 </a>
             </div>
