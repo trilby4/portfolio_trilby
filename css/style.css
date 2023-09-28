@@ -46,11 +46,16 @@ h5 {
   font-weight: 400;
 }
 
+a:link {
+  color: #00e;
+  text-decoration: underline;
+} 
+
 .button-link {
   display: inline-block;
   padding: 10px 20px;
   background-color: #f8dfdb; /* Button background color */
-  color: #ec008c; /* Button text color */
+  color: #ec008c !important; /* Button text color */
   text-decoration: none; /* Remove underline */
   border: 1px solid #ec008c; /* Add border */
   border-radius: 5px; /* Rounded corners */
@@ -72,18 +77,13 @@ h5 {
   border: 1px solid #000; /* Change border when clicked */
 }
 
-a {
-  color: #00e;
-  text-decoration: underline;
-}
-
 a:hover {
   color: #000079;
   text-decoration: underline;
 }
 
 a:visited { /* visited link */
-  color: #551a8b;
+  color: #fff;
 }
 
 a:active { /* selected link */
@@ -104,6 +104,9 @@ nav > ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  text-align: right;
+  width: 100%;
+  padding-right: 15px;
 }
 
 nav > ul > li > a {
@@ -113,7 +116,7 @@ nav > ul > li > a {
 }
 
 main {
-  padding: 0px 50px;
+  padding: 0 50px;
 }
 
 nav {
@@ -154,6 +157,7 @@ a.logo.about-picture {
 
 .container-h1 {
   color: white;
+text-align: center;
 }
 
 .container-aboutme {
@@ -204,7 +208,7 @@ footer a {
   height: 40px;
   width: auto;
   display: inline-block;
-  margin: 0 10px;
+  margin: 0 0;
 }
 
 .navtoggle li:not(:last-child) {
@@ -223,7 +227,7 @@ footer a {
   padding-right: 0;
 }
 
-.navtoggle.responsive li  {
+.navtoggle.responsive li {
   display: block;
 }
 
@@ -231,14 +235,20 @@ footer a {
   padding: 24px 0 0;
 }
 
-.navtoggle.responsive li  {
+.navtoggle.responsive li {
   display: block;
   padding: 10px 0;
-  border-top: 1px solid rgba(255, 127, 80, 0.5);
 }
 
 .navtoggle.responsive li:last-child {
   padding: 0 0 10px;
+}
+
+#home header {
+  background-image: url("../img/homepage/portfolio_site_home_page@1x.png");
+  background-size: cover;
+  background-position: center;
+  margin-top: 20px;
 }
 
 /* ==============================
@@ -337,16 +347,27 @@ Medium devices (640px and larger)
 
   nav > ul {
     margin: 1em 0;
+    text-align: left;
+    width: auto;
+    padding-right: 0;
+  }
+
+  nav > ul > li {
+    display: inline-block;
+  }
+
+  #home header {
+    background-image: url("../img/homepage/portfolio_site_home_page@2x.png");
+    background-size: cover;
+    background-position: center;
+    margin-top:
   }
 }
 
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
-@media only screen and (min-width: 1024px) {
-  header {
-    padding: 100px;
-}
+
 
   .container {
     max-width: 1000px;
@@ -393,10 +414,8 @@ Large devices (1024px or larger)
   nav > ul {
     margin: 1em 0;
   }
-}
 
-/* ==============================
-X-large devices (1440px or larger)
-================================= */
-@media only screen and (min-width: 1440px) {
+  nav > ul > li {
+    display: inline-block;
+  }
 }
