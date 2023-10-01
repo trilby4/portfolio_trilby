@@ -46,12 +46,12 @@ h5 {
   font-weight: 400;
 }
 
-a:link {
+a, a:visited {
   color: #00e;
   text-decoration: underline;
-} 
+}
 
-.button-link {
+.button-link, .button-link:visited {
   display: inline-block;
   padding: 10px 20px;
   background-color: #f8dfdb; /* Button background color */
@@ -82,10 +82,6 @@ a:hover {
   text-decoration: underline;
 }
 
-a:visited { /* visited link */
-  color: #fff;
-}
-
 a:active { /* selected link */
   color: #e00;
 }
@@ -113,6 +109,11 @@ nav > ul > li > a {
   padding: 0 15px;
   font-weight: 700;
   color: #4a4a4a;
+}
+
+#home nav > ul > li > a,
+#home nav > ul > li > a:visited {
+  color: #fff;
 }
 
 main {
@@ -157,7 +158,7 @@ a.logo.about-picture {
 
 .container-h1 {
   color: white;
-text-align: center;
+  text-align: center;
 }
 
 .container-aboutme {
@@ -208,7 +209,7 @@ footer a {
   height: 40px;
   width: auto;
   display: inline-block;
-  margin: 0 0;
+  margin: 0;
 }
 
 .navtoggle li:not(:last-child) {
@@ -224,7 +225,7 @@ footer a {
   right: 0;
   top: 2px;
   font-size: 20px;
-  padding-right: 0;
+  padding-right: 5px 10px;
 }
 
 .navtoggle.responsive li {
@@ -360,14 +361,16 @@ Medium devices (640px and larger)
     background-image: url("../img/homepage/portfolio_site_home_page@2x.png");
     background-size: cover;
     background-position: center;
-    margin-top:
   }
 }
 
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
-
+@media only screen and (min-width: 1024px) {
+  header {
+    padding: 100px;
+  }
 
   .container {
     max-width: 1000px;
