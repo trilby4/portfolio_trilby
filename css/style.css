@@ -55,7 +55,7 @@ a:link {
   display: inline-block;
   padding: 10px 20px;
   background-color: #f8dfdb; /* Button background color */
-  color: #ec008c !important; /* Button text color */
+  color: #ec008c; /* Button text color */
   text-decoration: none; /* Remove underline */
   border: 1px solid #ec008c; /* Add border */
   border-radius: 5px; /* Rounded corners */
