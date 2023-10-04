@@ -304,6 +304,10 @@ Medium devices (640px and larger)
     width: 50%;
   }
 
+  .col-md-33 {
+    width: 33%;
+  }
+
   .col-lg-pic {
     width: 50%;
     padding-top: 80px;
@@ -417,6 +421,10 @@ Large devices (1024px or larger)
   .col-lg-60 {
     width: 60%;
   }
+
+  .col-lg-33 {
+    width: 33%;
+ }
 
   nav > ul > li {
     display: inline-block;
