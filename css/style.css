@@ -46,39 +46,41 @@ h5 {
   font-weight: 400;
 }
 
-a, a:visited {
-  color: #ec008c;
+a,
+a:visited {
+  color: #c60076;
   text-decoration: underline;
 }
 
-.button-link, .button-link:visited {
+.button-link,
+.button-link:visited {
   display: inline-block;
   padding: 10px 20px;
   background-color: #f8dfdb; /* Button background color */
-  color: #ec008c; /* Button text color */
+  color: #c60076; /* Button text color */
   text-decoration: none; /* Remove underline */
-  border: 1px solid #ec008c; /* Add border */
+  border: 1px solid #c60076; /* Add border */
   border-radius: 5px; /* Rounded corners */
   transition: 0.2s opacity;
 }
 
 .button-link:hover {
   background-color: #ffa0d8; /* Hover background color */
-  color: #ec008c; /* Button text color */
+  color: #c60076; /* Button text color */
   text-decoration: none; /* Remove underline */
-  border: 1px solid #ec008c; /* Add border */
+  border: 1px solid #c60076; /* Add border */
   border-radius: 5px; /* Rounded corners */
   opacity: 0.8;
 }
 
 .button-link:active {
-  background-color: #ec008c; /* Change background color when clicked */
+  background-color: #e40087; /* Change background color when clicked */
   color: #fff; /* Change text color when clicked */
   border: 1px solid #000; /* Change border when clicked */
 }
 
 a:hover {
-  color: #B5006B;
+  color: #b5006b;
   text-decoration: underline;
 }
 
@@ -108,7 +110,7 @@ nav > ul {
 nav > ul > li > a {
   padding: 0 15px;
   font-weight: 700;
-  color: #4a4a4a;
+  color: #c60076;
 }
 
 #home nav > ul > li > a,
@@ -206,7 +208,7 @@ footer a {
 }
 
 .social-media-logo {
-  height: 40px;
+  height: 35px;
   width: auto;
   display: inline-block;
   margin: 0;
@@ -287,7 +289,7 @@ Medium devices (640px and larger)
   }
 
   .col-md-70 {
-    width: 70%; q
+    width: 70%;
   }
 
   .col-md-60 {
@@ -299,6 +301,15 @@ Medium devices (640px and larger)
   }
 
   .col-md-50 {
+    width: 50%;
+  }
+
+  .col-lg-pic {
+    width: 50%;
+    padding-top: 80px;
+  }
+
+  .col-md-pic {
     width: 50%;
   }
 
@@ -392,6 +403,11 @@ Large devices (1024px or larger)
 
   .col-lg-50 {
     width: 50%;
+  }
+
+  .col-lg-pic {
+    width: 50%;
+    padding-top: 80px;
   }
 
   .col-lg-40 {
