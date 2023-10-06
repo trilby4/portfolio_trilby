@@ -107,7 +107,7 @@ nav > ul {
   padding-right: 15px;
 }
 
-nav > ul > li > a {
+nav > ul > li > a, nav > ul > li > a > .fas {
   padding: 0 15px;
   font-weight: 700;
   color: #c60076;
@@ -198,7 +198,7 @@ a.logo.about-picture {
   animation: 24s cloud-move-reverse infinite alternate linear;
 }
 
-.center { text-align: center; }
+.center, .center-mobile { text-align: center; }
 
 footer a {
   height: 40px;
@@ -254,6 +254,9 @@ footer a {
   margin-top: 20px;
 }
 
+.spacer {
+  height: 20px;
+}
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -262,7 +265,9 @@ Medium devices (640px and larger)
     text-align: unset;
     padding: 20px 0 13px;
   }
-
+  .center-mobile {
+  text-align: unset;
+}
   nav {
     width: auto;
     float: right;
@@ -425,7 +430,7 @@ Large devices (1024px or larger)
 
   .col-lg-33 {
     width: 33%;
- }
+  }
 
   nav > ul > li {
     display: inline-block;
