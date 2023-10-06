@@ -107,16 +107,16 @@ nav > ul {
   padding-right: 15px;
 }
 
-nav > ul > li > a, nav > ul > li > a > .fas {
-  padding: 0 15px;
-  font-weight: 700;
-  color: #c60076;
-}
-
 #home nav > ul > li > a,
 #home nav > ul > li > a:visited,
 #home nav > ul > li > a > .fas {
   color: #fff;
+}
+
+nav > ul > li > a, nav > ul > li > a > .fas {
+  padding: 0 15px;
+  font-weight: 700;
+  color: #c60076;
 }
 
 main {
