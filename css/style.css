@@ -115,7 +115,7 @@ nav > ul > li > a, nav > ul > li > a > .fas {
 
 #home nav > ul > li > a,
 #home nav > ul > li > a:visited,
-nav > ul > li > a > .fas {
+#home nav > ul > li > a > .fas {
   color: #fff;
 }
 
