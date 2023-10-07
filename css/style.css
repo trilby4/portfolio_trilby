@@ -22,27 +22,27 @@ h1 h2 h3 h4 {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 2.5em;
   font-weight: 700;
 }
 
 h2 {
-  font-size: 2.5em;
+  font-size: 2em;
   font-weight: 700;
 }
 
 h3 {
-  font-size: 2.5em;
+  font-size: 2em;
   font-weight: 700;
 }
 
 h4 {
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: 400;
 }
 
 h5 {
-  font-size: 1.5em;
+  font-size: 1em;
   font-weight: 400;
 }
 
@@ -113,8 +113,9 @@ nav > ul {
   color: #fff;
 }
 
-nav > ul > li > a, nav > ul > li > a > .fas {
-  padding: 0 15px;
+nav > ul > li > a,
+nav > ul > li > a > .fas {
+  padding: 5px 10px;
   font-weight: 700;
   color: #c60076;
 }
@@ -199,7 +200,8 @@ a.logo.about-picture {
   animation: 24s cloud-move-reverse infinite alternate linear;
 }
 
-.center, .center-mobile { text-align: center; }
+.center,
+.center-mobile { text-align: center; }
 
 footer a {
   height: 40px;
@@ -255,8 +257,37 @@ footer a {
   margin-top: 20px;
 }
 
+.img3 {
+  width: 200px;
+  height: auto; 
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
+.img6 {
+  width: 250px; 
+  height: auto; 
+  margin-top: 20px;
+  margin-left: 60px
+}
+
+.img2 {
+  width: 250px;
+  height: auto;
+}
+
 .spacer {
-  height: 20px;
+  margin-top: 60px;
+}
+
+.spacer2 {
+  margin-bottom: 60px;
+}
+
+.img21 {
+  width: 300px;
+  height: auto; 
+  margin-left: 10px; 
 }
 /* ==============================
 Medium devices (640px and larger)
@@ -266,9 +297,11 @@ Medium devices (640px and larger)
     text-align: unset;
     padding: 20px 0 13px;
   }
+
   .center-mobile {
-  text-align: unset;
-}
+    text-align: unset;
+  }
+
   nav {
     width: auto;
     float: right;
@@ -312,15 +345,6 @@ Medium devices (640px and larger)
 
   .col-md-33 {
     width: 33%;
-  }
-
-  .col-lg-pic {
-    width: 50%;
-    padding-top: 80px;
-  }
-
-  .col-md-pic {
-    width: 50%;
   }
 
   .project-logo {
@@ -383,6 +407,33 @@ Medium devices (640px and larger)
     background-size: cover;
     background-position: center;
   }
+
+  .about_img {
+    margin-top: 130px;
+  
+}
+
+.img3 {
+  width: 200px; 
+  height: auto; 
+  margin-left: 40px;
+}
+.img6 {
+  width: 250px; 
+  height: auto; 
+  margin-top: 20px;
+}
+
+.img21 {
+  width: 500px;
+  height: auto;
+  margin-left: 90px; 
+}
+
+.img6 {
+  width: 150px;
+  height: auto;
+  margin-top: 100px; 
 }
 
 /* ==============================
@@ -401,7 +452,6 @@ Large devices (1024px or larger)
 
   .col-lg-20 {
     width: 20%;
-    padding-top: 80px;
   }
 
   .col-lg-30 {
@@ -452,4 +502,32 @@ Large devices (1024px or larger)
   nav > ul > li {
     display: inline-block;
   }
+ 
+  .about_img {
+    margin: 10px;
+  
+}
+
+.img3 {
+  width: 300px; /* Adjust the desired width */
+  height: auto; /* This ensures the aspect ratio is maintained */
+  margin-left: 60px;
+}
+.img5 {
+  width: 500px; 
+  height: auto; 
+  margin-left: 250px;
+  margin-top: 20px;
+}
+.img6 {
+  width: 250px; 
+  height: auto; 
+  margin-top: 20px;
+}
+
+.img21 {
+  width: 500px;
+  height: auto;
+  margin-left: 200px; 
+}
 }
